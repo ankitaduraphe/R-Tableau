@@ -1,0 +1,42 @@
+---
+title: "Tableau and R Integration"
+author: "18BCE1104 - Ankita Duraphe"
+date: "08/05/2021"
+output:
+  html_document:
+    fig_height: 4
+    highlight: pygments
+    theme: spacelab
+  word_document: default
+  pdf_document: default
+---
+
+### R side of the Integration
+
+* * *
+
+```{r}
+library(Rserve)
+Rserve()
+```
+
+
+### Tableau side of the Integration
+
+* * *
+
+The complete integration of R and Tableau is done on Superstore dataset. \
+And the following R functionalities are done on Tableau:- \
+
+• Mutiple Linear Regression to predict Profit (R function used: SCRIPT_REAL) \
+• Trend Line Analysis for each category (R function used: SCRIPT_REAL) \
+• Forecasting for Sales Forecast against Month of Order Date (R function used: SCRIPT_REAL) \
+• Simple Profit Classification using Table Calculation (R function used: SCRIPT_BOOL) \
+• Concatenation of Fields (R function used: SCRIPT_BOOL) \
+• kmeans Clustering (R function used: SCRIPT_INT) \
+
+### Conclusion:
+
+Hence, all the 4 R functions have been used in this exercise to perform the above functionalities for the integration of R in Tableau.
+
+* * *
